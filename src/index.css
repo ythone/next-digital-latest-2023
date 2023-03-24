@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: "billion";
+        font-weight: 400;
+        src: url("/fonts/BillionDreams_PERSONAL.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: "mont";
+        font-weight: 400;
+        src: url("/fonts/Montserrat-Bold.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: "opensans";
+        font-weight: 400;
+        src: url("/fonts/OpenSans-Regular.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: "franklin";
+        font-weight: 400;
+        src: url("/fonts/Franklin_Gothic_Book_Regular.ttf") format('truetype');
+    }
+}
